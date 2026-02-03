@@ -1,0 +1,12 @@
+[
+    {
+        "type": "string",
+        "property": "folder.colorscheme",
+        "label": "Folder color-scheme:"
+    },
+    {
+        "type": "string",
+        "property": "folder.textcolor",
+        "label": "Folder text color:"
+    }
+]
