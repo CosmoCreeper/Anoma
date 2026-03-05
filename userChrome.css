@@ -1,4 +1,10 @@
 /* Tweaks */
+.zen-browser-generic-background {
+  &, &::before, &::after {
+    border-radius: 8px !important;
+  }
+}
+
 .zen-current-workspace-indicator-icon {
   margin-bottom: 3px;
 }
@@ -419,4 +425,5 @@ menupopup {
     }
   }
 }
+
 
