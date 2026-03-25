@@ -30,7 +30,6 @@
 /* Base Styling (Style 1 - Default) */
 #zen-workspaces-button {
   container-type: initial !important;
-  width: auto !important;
   padding: 3px !important;
   border-radius: calc(var(--border-radius-medium) - 2px) !important;
   background-color: light-dark(
@@ -41,6 +40,10 @@
   transition:
     box-shadow 0.35s ease-out,
     background-color 0.35s ease-out;
+}
+
+#zen-workspaces-button:not([icons-overflow]) {
+  gap: 0 !important;
 }
 
 #zen-workspaces-button:hover {
@@ -67,6 +70,10 @@
     var(--zen-branding-bg-reverse) 10%,
     transparent 90%
   ) !important;
+
+  &:not(:hover):not([active="true"])::after {
+    opacity: 0 !important;
+  }
 }
 
 #zen-workspaces-button .subviewbutton:hover {
@@ -425,5 +432,3 @@ menupopup {
     }
   }
 }
-
-
