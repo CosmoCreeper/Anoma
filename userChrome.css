@@ -1,3 +1,9 @@
+/* Font Configuration */
+@font-face {
+  font-family: "SF Pro";
+  src: url("chrome://sine/content/anoma/sfpro.ttf");
+}
+
 /* Tweaks */
 .zen-browser-generic-background {
   &, &::before, &::after {
