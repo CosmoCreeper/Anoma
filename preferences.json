@@ -1,0 +1,29 @@
+[
+  {
+    "type": "string",
+    "property": "anoma.status-bar",
+    "defaultValue": "",
+    "label": "Status bar border intensity. Set to empty to disable."
+  },
+  {
+    "type": "boolean",
+    "property": "browser.tabs.hoverPreview.enabled",
+    "label": "Enable tab previews. Necessary for below customizations."
+  },
+  {
+    "type": "boolean",
+    "property": "browser.tabs.hoverPreview.showThumbnails",
+    "label": "Show thumbnails in tab previews. Necessary for below customizations."
+  },
+  {
+    "type": "boolean",
+    "property": "anoma.preview-panel.sleek-border",
+    "label": "Enable sleek border for preview panel thumbnail."
+  },
+  {
+    "type": "string",
+    "property": "anoma.preview-panel.radius",
+    "defaultValue": "",
+    "label": "Preview panel thumbnail border intensity. Set to empty to disable."
+  }
+]
