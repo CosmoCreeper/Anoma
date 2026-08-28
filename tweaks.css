@@ -7,11 +7,11 @@
 .tab-preview-thumbnail-container {
   canvas {
     @media (-moz-pref("anoma.preview-panel.sleek-border")) {
-      border: 1px solid lightgray;
+      border: 1px solid lightgray !important;
     }
     
     @media (-moz-pref("anoma.preview-panel.radius")) {
-      border-radius: var(--anoma-preview-panel-radius);
+      border-radius: var(--anoma-preview-panel-radius) !important;
     }
   }
 }
