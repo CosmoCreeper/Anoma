@@ -1,0 +1,17 @@
+@media (-moz-pref("anoma.status-bar")) {
+  #statuspanel > #statuspanel-label {
+    border-radius: var(--anoma-status-bar) !important;
+  }
+}
+
+.tab-preview-thumbnail-container {
+  canvas {
+    @media (-moz-pref("anoma.preview-panel.sleek-border")) {
+      border: 1px solid lightgray;
+    }
+    
+    @media (-moz-pref("anoma.preview-panel.radius")) {
+      border-radius: var(--anoma-preview-panel-radius);
+    }
+  }
+}
