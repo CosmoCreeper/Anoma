@@ -358,7 +358,7 @@ menupopup {
   font-family: var(--zen-font-family) !important;
 
   /* --- Border Radii --- */
-  --zen-squircle-value: 1.3px !important;
+  --zen-squircle-value: 1.3 !important;
   --border-radius-medium: 12px !important;
   /* Tahoe standard */
   --tab-border-radius: 8px !important;
