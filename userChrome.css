@@ -443,11 +443,11 @@ menupopup {
 }
 
 .urlbar-background {
-  corner-shape: squircle;
-  border-radius: 38px;
+  corner-shape: squircle !important;
+  border-radius: 38px !important;
 }
 
 .urlbarView-row, .urlbarView-row img {
-  corner-shape: squircle;
-  border-radius: 80px;
+  corner-shape: squircle !important;
+  border-radius: 80px !important;
 }
