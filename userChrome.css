@@ -441,3 +441,13 @@ menupopup {
     }
   }
 }
+
+.urlbar-background {
+  corner-shape: squircle;
+  border-radius: 38px;
+}
+
+.urlbarView-row, .urlbarView-row img {
+  corner-shape: squircle;
+  border-radius: 80px;
+}
